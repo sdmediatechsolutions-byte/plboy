@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1098322285955820');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1098322285955820&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relax with Joy</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        body { background-color: #0b0b0b; color: #ffffff; line-height: 1.6; padding-bottom: 80px; }
+
+        .video-bg-container { position: relative; width: 100%; min-height: 100vh; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .bg-video { position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -2; transform: translate(-50%, -50%); object-fit: cover; }
+        .video-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(11, 11, 11, 0.4) 0%, rgba(11, 11, 11, 0.95) 100%); z-index: -1; }
+
+        .container { width: 100%; padding: 24px; max-width: 480px; margin: 0 auto; text-align: center; }
+        .logo-box { padding: 30px 0 10px; }
+        .logo-icon { font-size: 3rem; color: #ffffff; line-height: 1; }
+
+        .hero-title { font-size: 2.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; font-style: italic; text-shadow: 0px 4px 10px rgba(0,0,0,0.5); }
+        .hero-subtitle { font-size: 0.95rem; color: #d60d7b; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+        .countdown-text { font-size: 0.85rem; color: #a0a0a0; margin-bottom: 20px; min-height: 18px; }
+
+        .btn-pink { display: inline-block; width: 100%; max-width: 340px; padding: 16px; background-color: #d60d7b; color: #ffffff; font-weight: bold; text-transform: uppercase; text-decoration: none; border-radius: 30px; font-size: 1.1rem; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(214, 13, 123, 0.4); margin-bottom: 12px; transition: transform 0.2s; }
+        .btn-pink:active { transform: scale(0.98); background-color: #bd0a6c; }
+
+        .btn-telegram { display: inline-flex; align-items: center; justify-content: center; width: 100%; max-width: 340px; padding: 16px; background-color: #26a5e4; color: #ffffff; font-weight: bold; text-transform: uppercase; text-decoration: none; border-radius: 30px; font-size: 1rem; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(38, 165, 228, 0.3); margin-bottom: 35px; }
+        .btn-telegram::before { content: '✈'; font-size: 1.2rem; margin-right: 8px; transform: rotate(-30deg); display: inline-block; }
+        .btn-telegram:active { transform: scale(0.98); background-color: #1f8ec4; }
+
+        .featured-img-frame {
+            width: 2.5in;
+            height: 3.5in;
+            margin: 0 auto 35px;
+            border: 3px solid #d60d7b;
+            background-color: #d60d7b;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+            position: relative;
+        }
+        .featured-img-frame img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+
+        .benefits-section { background: #121212; padding: 40px 24px; border-top: 1px solid #222222; }
+        .benefit-row { display: flex; align-items: center; text-align: left; margin-bottom: 25px; }
+        .benefit-icon { font-size: 1.8rem; color: #d60d7b; margin-right: 18px; min-width: 35px; text-align: center; }
+        .benefit-text h4 { font-size: 1.1rem; text-transform: uppercase; margin-bottom: 2px; letter-spacing: 0.5px; }
+        .benefit-text p { color: #a0a0a0; font-size: 0.9rem; }
+
+        .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(11, 11, 11, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 12px 20px; border-top: 1px solid #222222; z-index: 999; text-align: center; box-shadow: 0 -5px 20px rgba(0,0,0,0.5); }
+        .sticky-footer .btn-pink { max-width: 440px; margin-bottom: 0; padding: 14px; font-size: 1rem; }
+
+        @media (min-width: 768px) {
+            .container { max-width: 600px; }
+            .hero-title { font-size: 3.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-bg-container">
+        <video autoplay loop muted playsinline class="bg-video" poster="https://placehold.co">
+            <source src="your-video-file.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+
+        <div class="container">
+            <div class="logo-box">
+                <div class="logo-icon">🐰</div>
+            </div>
+            <h2 class="hero-title">Ultimate <br><span>Relax & Joy</span></h2>
+            <div class="hero-subtitle">
+                <h3>Your Exclusive Relax Journey</h3>
+            </div>
+            <p class="countdown-text" id="count">Will be redirect in 30 seconds ....</p>
+
+            <!-- Main CTA -> fires Subscribe event -->
+            <a href="https://t.me/+tv4e_2qA4BJkNWY1" class="btn-pink tg-cta" data-fbevent="Subscribe" data-label="join-now">Join Now Just for Free .....</a>
+            <div style="font-size: 0.85rem; margin-bottom: 25px;">
+                <a href="https://t.me/+tv4e_2qA4BJkNWY1" class="tg-cta" data-fbevent="Contact" data-label="welcome-back" style="color:#a0a0a0; text-decoration:none;">Already a member? <span style="color:#fff; text-decoration:underline;">Welcome Back</span></a>
+            </div>
+
+            <div class="featured-img-frame">
+                <img src="22.png" alt="Premium Experience Preview">
+            </div>
+
+            <!-- Secondary CTA -> fires Contact event -->
+            <a href="https://t.me/+tv4e_2qA4BJkNWY1" class="btn-telegram tg-cta" data-fbevent="Contact" data-label="book-now" target="_blank">Book Now it's Free !</a>
+        </div>
+    </div>
+
+    <section id="join-club" class="benefits-section">
+        <div class="container" style="padding:0;">
+            <h3 style="font-size:1.3rem; text-transform:uppercase; margin-bottom:30px; letter-spacing:1px;">Relax Enrollment Benefits</h3>
+
+            <div class="benefit-row">
+                <div class="benefit-icon">📱</div>
+                <div class="benefit-text">
+                    <h4>Digital Archives</h4>
+                    <p>Unlock decades of iconic fashion, lifestyle, and elite photography vaults.</p>
+                </div>
+            </div>
+
+            <div class="benefit-row">
+                <div class="benefit-icon">📅</div>
+                <div class="benefit-text">
+                    <h4>VIP Access Pass</h4>
+                    <p>Feel Relaxing and awsome services</p>
+                </div>
+            </div>
+
+            <div class="benefit-row">
+                <div class="benefit-icon">🔑</div>
+                <div class="benefit-text">
+                    <h4>Enrollment Perks</h4>
+                    <p>Early Updates for organized Events as per scheduled</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pinned Bottom Navigation Button -> fires Subscribe event -->
+    <div class="sticky-footer">
+        <a href="https://t.me/+tv4e_2qA4BJkNWY1" class="btn-pink tg-cta" data-fbevent="Subscribe" data-label="sticky-footer" target="_blank">Book Free Relaxing .....</a>
+    </div>
+
+<script>
+const TELEGRAM_URL = "https://t.me/+tv4e_2qA4BJkNWY1";
+
+function trackAndRedirect(event) {
+  if (event) event.preventDefault();
+
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Subscribe', {
+      value: '0.00',
+      currency: 'INR',
+      predicted_ltv: '0.00',
+    });
+  } else {
+    console.log('Pixel not loaded, but redirecting...');
+  }
+
+  setTimeout(function () {
+    window.location.href = TELEGRAM_URL;
+  }, 300);
+}
+
+let time = 08;
+const timerTextTpl = "Will be redirecting in {n} seconds....";
+const countTxt = document.getElementById('countTxt');
+
+function paintTimer() {
+  if (!countTxt) return;
+  countTxt.innerHTML = timerTextTpl.replace(
+    '{n}',
+    '<span style="color:#ffd700;font-weight:bold;">' + time + '</span>'
+  );
+}
+paintTimer();
+
+const countdown = setInterval(function () {
+  time--;
+  paintTimer();
+  if (time <= 0) {
+    clearInterval(countdown);
+    trackAndRedirect();
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
